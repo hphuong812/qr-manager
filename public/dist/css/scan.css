@@ -1,0 +1,127 @@
+.contact{
+    padding-top: 2%;
+    width: 95%;
+    padding-left: 5%;
+}
+/* .col-md-4{
+    background: #ff9b00;
+    padding: 2%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+} */
+/* .contact-info{
+   
+} */
+.scroll {
+  height:500px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+.col-md-6{
+    /* background: #fff; */
+    padding-top: 0%;
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.col-md-6 .text{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.col-md-6 .quantity_ct{
+    margin-left: 5%; 
+    width: 90%;
+}
+.col-md-6 .price_text{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.col-md-6 .price{
+    margin-top: 5%;
+    float: left;
+    margin-left: 2%;
+    color: #f3970d;
+    
+}
+.col-md-6 .btn_tt{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+
+
+/* Tăng giảm số lượng */
+.number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .number-input input[type=number]::-webkit-inner-spin-button,
+  .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    text-align: center;
+  }
+  
+  .number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 80px;
+    border-radius: .25rem;
+    
+  }
+  
+  .number-input.number-input button {
+    width: 10%;
+    height: .7rem;
+  }
+  
+  
+  .number-input.number-input button:before,
+  .number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+  }
+  
+  .number-input.number-input input[type=number] {
+    max-width: 40px;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 1rem;
+    color: #495057;
+  }
+  
+ 
+
+table tbody tr{
+  border: 1px solid #ced4da;
+}

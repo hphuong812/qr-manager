@@ -1,0 +1,2 @@
+@include('menu')
+@yield('content')
