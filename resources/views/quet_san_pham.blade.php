@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Trang quản lý</title>
+    <title>Trang quét sản phẩm</title>
     <base href="{{ asset('') }}">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{route('home')}}/plugins/fontawesome-free/css/all.min.css">
@@ -185,6 +185,9 @@
     <script src="{{route('home')}}/dist/js/adminlte.min.js"></script>
     <!-- Intascan -->
     <script type="text/javascript" src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    
+    <!-- sweelalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="{{route('home')}}/dist/js/demo.js"></script>
     <script src="{{ asset('build') }}/js/scan_product.js"></script>

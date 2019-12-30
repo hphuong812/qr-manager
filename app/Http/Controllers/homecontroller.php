@@ -39,15 +39,7 @@ class homecontroller extends Controller
     }
     public function QuetSP()
     {
-       
-       
-               
-                  // lấy tình trạng sản phẩm
-                  $DanhSachSP= Products::all();
-                // return "$i1 $i2 $i3 $i4 $LoaiYeuThich $SanPhamBanChay ";
-                return view('quet_san_pham',compact('DanhSachSP'));
-            
-        
+                return view('quet_san_pham');
                  
     }
     public function ScanQR(Request $request)
