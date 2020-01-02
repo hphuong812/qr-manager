@@ -121,7 +121,7 @@
             <th>Giá</th>
             <th>Số lượng</th>
             <th style="width: 50px;">Mã QR</th>
-            <th style="width: 50px;">Xóa</th>
+           
             </tr>
             </thead>
             <tbody>
@@ -132,13 +132,13 @@
                     <td>{{ $item->price }}</td>
                     <td>{{ $item->quantity }}</td>
                     <td><img  style="width: 50px;height: 50px; margin-left: 10%;" src="https://api.qrserver.com/v1/create-qr-code/?data={{ $item->qrcode }}" /></td>
-                  <td>
+                  {{-- <td>
                     <form action="{{route('home')}}/Xoa" method="post">
                          @csrf 
                         <input type="hidden" name="ID_SP" value="{{ $item->id }}">
                         <button type="submit" class="btn btn-sm btn-danger deleteCart"><i
                             class="fa fa-trash"></i> </button> </form>
-                  </td>
+                  </td> --}}
                     </tr>
                     
                     @endforeach

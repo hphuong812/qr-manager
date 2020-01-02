@@ -25,6 +25,7 @@
 
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
   <!-- REQUIRED SCRIPTS -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <!-- jQuery -->
   <script src="{{route('home')}}/plugins/jquery/jquery.min.js"></script>
   <!-- Bootstrap -->

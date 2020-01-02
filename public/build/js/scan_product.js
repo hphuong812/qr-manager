@@ -31,7 +31,7 @@ $('#btn-checkout').click(e =>{
         url:'http://192.168.61.27:8000/',
         method: 'POST',
         data: {
-            id: '2',
+            id: '13',
             money: totalPayment,
         },
         success:data=> {

@@ -175,7 +175,7 @@
                            
                                
                                 
-                                  alert(data)
+                              swal('Thành công',data, 'success')
                               
                                   $('#Print').show();
                                 
